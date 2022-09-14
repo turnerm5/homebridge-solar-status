@@ -18,7 +18,7 @@ function LightSensorAccessory(log, config) {
     .getCharacteristic(Characteristic.CurrentAmbientLightLevel)
     .setProps({
       minValue: 0,
-      maxValue: 100,
+      maxValue: 10000,
       minStep: 0.01,
     })
     .on('get', this.getState.bind(this));
