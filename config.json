@@ -1,0 +1,6 @@
+{
+    "accessory": "SolarSensor",
+    "name": "Current Power",
+    "description": "Current output in W",
+    "file_path": "/volume1/homebridge/data/currentPower.txt"
+  }
